@@ -1,0 +1,130 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f0c29;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.quiz-container {
+  position: relative;
+  z-index: 2;
+
+  background: #fff;
+  width: 450px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+.progress {
+  background: #eee;
+  height: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#progressBar {
+  height: 100%;
+  width: 0%;
+  background: #4caf50;
+  border-radius: 5px;
+}
+
+.timer {
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.option {
+  background: #f1f1f1;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background: #e0e0e0;
+}
+
+.option.correct { background: #c8e6c9; }
+.option.wrong { background: #ffcdd2; }
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #667eea;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+.result {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* 🔵 3D Animated Background */
+.background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+
+.background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 1;
+  perspective: 800px;
+}
+
+.background span {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle at top left, rgba(255,255,255,0.35), rgba(255,255,255,0.05));
+  box-shadow: 0 0 40px rgba(255,255,255,0.15);
+  animation: float3d linear infinite;
+}
+
+.background span:nth-child(1) { width: 120px; height: 120px; left: 10%; animation-duration: 18s; }
+.background span:nth-child(2) { width: 220px; height: 220px; left: 25%; animation-duration: 26s; }
+.background span:nth-child(3) { width: 160px; height: 160px; left: 45%; animation-duration: 22s; }
+.background span:nth-child(4) { width: 280px; height: 280px; left: 65%; animation-duration: 30s; }
+.background span:nth-child(5) { width: 140px; height: 140px; left: 85%; animation-duration: 20s; }
+
+@keyframes float3d {
+  0% {
+    transform: translateY(110vh) translateZ(-200px) rotateX(0deg) rotateY(0deg);
+    opacity: 0;
+  }
+  20% { opacity: 1; }
+  100% {
+    transform: translateY(-200px) translateZ(300px) rotateX(360deg) rotateY(360deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(-200px) translateZ(300px);}
+  }
