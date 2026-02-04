@@ -27,3 +27,7 @@ To enhance the visual appeal, the project includes a 3D animated moving backgrou
 The user interface is designed to be clean and user-friendly. Instant feedback is provided by highlighting correct answers in green and wrong answers in red. An additional information section explains the purpose and features of the project, which is helpful during demonstrations and viva examinations.
 
 In conclusion, this Advanced JavaScript Quiz Application is a feature-rich, interactive, and visually appealing project that demonstrates strong understanding of DOM manipulation, event handling, timers, animations, and responsive UI design. It is an excellent example of applying theoretical JavaScript concepts to build a real-world web application.
+
+OUTPUT
+<img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/18fc4dec-c72b-4439-868e-535bf6cf6a21" />
+
