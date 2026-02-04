@@ -30,4 +30,9 @@ In conclusion, this Advanced JavaScript Quiz Application is a feature-rich, inte
 
 OUTPUT
 <img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/18fc4dec-c72b-4439-868e-535bf6cf6a21" />
+<img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/ba44badb-8f75-404b-ab7a-cc9f55b05817" />
+
+<img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/ba0e00bd-aed8-45b7-852f-fb08eda5de67" />
+
+<img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/6931c058-be22-43eb-90bb-a7d5a9cdb510" />
 
